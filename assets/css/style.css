@@ -16,10 +16,11 @@
     margin-left: 25px;
 }
 
-header {
-    background-color: #8A846A;
+.header {
+    background-color: #273C2C;
     height: 75px;
 }
+
 
 /* Navigation Links */
 
@@ -30,6 +31,7 @@ header {
 
 #menu, #logo {
     line-height: 75px;
+    color: #FDF1B5;
 }
 
 #menu li {
@@ -40,6 +42,11 @@ header {
 
 #menu a {
     text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border: 1px solid #FDF1B5;
 }
 
 
@@ -48,11 +55,55 @@ header {
 #hero-outer {
     height: 800px;
     width: 100%;
-    overflow: hidden
+    overflow: hidden;
 }
 
 #hero-tree {
     height: 800px;
     width: 100%;
     background: url('../images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg');
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+/* Footer */
+
+footer {
+    background-color: #273C2C;
+    padding: 2%;
+}
+
+.footer-contact {
+    text-align: center;
+    font-size: 180%;
+    color: #FDF1B5;
+}
+
+.footer-contact a {
+    text-decoration: none;
+    color: #FDF1B5;
+}
+
+hr {
+    height: 30px;
+}
+
+.networks {
+    text-align: center;
+}
+
+.networks li {
+    display: inline;
+}
+
+.networks i {
+    font-size: 160%;
+    color: #FDF1B5;
+    padding: 1%;
+}
+
+.footer-contact a:hover {
+    border: 1px solid #FDF1B5;
 }
