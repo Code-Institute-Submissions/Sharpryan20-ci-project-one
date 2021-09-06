@@ -16,6 +16,11 @@
     margin-left: 25px;
 }
 
+header {
+    background-color: #8A846A;
+    height: 75px;
+}
+
 /* Navigation Links */
 
 #menu {
