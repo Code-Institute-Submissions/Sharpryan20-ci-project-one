@@ -68,6 +68,33 @@
     overflow: hidden;
 }
 
+/* Cover Boxes */
+
+#box-one {
+    color: #FDF1B5;
+    text-align: center;
+}
+
+#box-one {
+    font-size: 125%;
+
+    width: 250px;
+    height: 150px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(51,75,24,.6);
+
+    bottom: 300px;
+    left: 250px;
+    position: absolute;
+}
+
+#box-one hr {
+    height: 8px;
+}
+
 /* Footer */
 
 footer {
@@ -86,7 +113,7 @@ footer {
     color: #FDF1B5;
 }
 
-hr {
+footer hr {
     height: 30px;
 }
 
