@@ -83,6 +83,7 @@
     padding-left: 10px;
 
     background-color: rgba(51,75,24,.8);
+    border-radius: 5px;
 }
 
 #box-one {
@@ -93,7 +94,13 @@
 
 #box-two {
     bottom: 5px;
-    left: 500px;
+    left: 600px;
+    position: absolute;
+}
+
+#box-three {
+    bottom: 300px;
+    left: 950px;
     position: absolute;
 }
 
@@ -144,3 +151,4 @@ footer hr {
 .footer-contact a:hover {
     border: 1px solid #FDF1B5;
 }
+
