@@ -56,10 +56,12 @@
     height: 800px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 }
 
 #hero-tree {
-    height: 800px;
+    height: 700px;
     width: 100%;
     background: url('../images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg');
 
@@ -68,55 +70,46 @@
     overflow: hidden;
 }
 
-/* Cover Boxes */
+/* Main Text */
 
-.box {
-    color: #FDF1B5;
-    text-align: center;
-
-    font-size: 125%;
-
-    width: 250px;
-    height: 150px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(51,75,24,.8);
-    border-radius: 5px;
-}
-
-#box-one {
-    bottom: 300px;
-    left: 250px;
+#t-one {
     position: absolute;
-}
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-#box-two {
-    bottom: 5px;
-    left: 600px;
+    color: #fff;
+
+    font-size: 150%;
+
+    text-shadow: 2px 2px #000;
+
+  }
+
+  #t-two {
     position: absolute;
-}
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-#box-three {
-    bottom: 300px;
-    left: 950px;
-    position: absolute;
-}
+    color: #fff;
 
-#cover-box hr {
-    height: 8px;
-}
+    font-size: 260%;
+    text-transform: uppercase;
+    font-weight: 700;
 
-#box-two a {
-    color: #FDF1B5;
-}
+    text-shadow: 2px 2px #000;
+
+  }
 
 /* Footer */
 
 footer {
     background-color: #273C2C;
     padding: 2%;
+    clear: both;
+    position: relative;
+    margin-top: -100px;
 }
 
 .footer-contact {
