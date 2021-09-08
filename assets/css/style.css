@@ -217,36 +217,61 @@ body {
     border-radius: 25px 25px 0 0;
 }
 
-/* Trails Box grid */
+/* Trails */
 
-.trails.box {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
+#trails {
+    height: 800px;
 }
 
-.trails-column {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.trails-column div {
-    flex-grow: 1;
-    margin: 0 8px;
-    border: solid 1px #000;
-    width: 250px;
-    height: 250px;
-    margin: 20px 20px;
-    
+#trails-box-left {
+    padding-top: 30px;
+    width: 30%;
     float: left;
 }
 
-.trails-column div+div {
-    margin-top: 8px
+#trails-box-right {
+    padding-top: 30px;
+    width: 30%;
+    float: right;
 }
+
+#trails-box-center {
+    width: 30%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.boxes-left {
+    width: 60%;
+    height: 300px;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 1px solid #000;
+}
+
+.boxes-right {
+    border: 1px solid #000;
+    width: 60%;
+    height: 300px;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.boxes-center {
+    width: 60%;
+    border: 1px solid #000;
+    height: 300px;
+    line-height: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
 /* Footer */
 
 footer {
