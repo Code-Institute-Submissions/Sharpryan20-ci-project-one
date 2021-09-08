@@ -1,5 +1,6 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 * {
     margin: 0;
@@ -169,6 +170,13 @@
     padding: 10px;
     margin: 10px;
     border-radius: 25px;
+}
+
+/* About Boxes Paragraphs */
+
+.col p {
+    letter-spacing: 2px;
+    font-weight: 700;
 }
 
 /* Footer */
