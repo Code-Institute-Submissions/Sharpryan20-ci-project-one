@@ -172,11 +172,17 @@
     border-radius: 25px;
 }
 
-/* About Boxes Paragraphs */
+/* About Boxes text */
+
+.col h2 {
+    font-size: 30px;
+}
 
 .col p {
     letter-spacing: 2px;
-    font-weight: 700;
+    font-family: Ubuntu, sans-serif;
+    font-size: large;
+    margin-top: 10px
 }
 
 /* Footer */
