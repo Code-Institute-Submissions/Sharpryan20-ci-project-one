@@ -143,6 +143,20 @@
     color: #273C2C;
 }
 
+/* About Boxes */
+
+.row {
+    display: wrap;
+}
+
+.about-box {
+    width: 100px;
+    height: 100px;
+    background-color: #273C2C;
+    padding: 10px;
+    margin: 10px;
+}
+
 /* Footer */
 
 footer {
