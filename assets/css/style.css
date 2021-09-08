@@ -237,8 +237,8 @@ body {
 
 #trails-box-center {
     width: 30%;
+    padding-top: 30px;
     margin: 0 auto;
-    padding: 0 auto;
 }
 
 .boxes-left {
@@ -268,8 +268,8 @@ body {
     border: 1px solid #000;
     height: 300px;
     line-height: 20px;
+    margin: 0 auto;
     margin-bottom: 50px;
-    margin-top: 50px;
 }
 
 /* Footer */
