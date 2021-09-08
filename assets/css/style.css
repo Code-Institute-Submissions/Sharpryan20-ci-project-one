@@ -155,34 +155,45 @@
 .col {
     width: 300px;
     text-align: center;
-    padding: 20px;
     margin-left: auto;
     margin-right: auto;
+    padding: 1.25rem;
 
-    border: 1px solid #000;
     border-radius: 25px;
 }
 
 .about-box {
-    width: 180px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
     background-color: #273C2C;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 25px;
+
+    border-radius: 25px 25px 0 0;
 }
 
 /* About Boxes text */
 
 .col h2 {
     font-size: 30px;
+    margin-top: 10px;
 }
 
 .col p {
     letter-spacing: 2px;
     font-family: Ubuntu, sans-serif;
     font-size: large;
-    margin-top: 10px
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* About Images */
+
+#about-image-one {
+    object-fit: cover;
+    background: url('../images/naassom-azevedo-AcWC8WuCQ_k-unsplash.jpg');
+
+    height: 250px;
+    width: 300px;
+    vertical-align: middle;
 }
 
 /* Footer */
