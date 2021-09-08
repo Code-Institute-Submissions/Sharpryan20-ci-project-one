@@ -80,7 +80,7 @@
 
     color: #fff;
 
-    font-size: 150%;
+    font-size: 260%;
 
     text-shadow: 2px 2px #000;
 
@@ -88,13 +88,13 @@
 
   #t-two {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     color: #fff;
 
-    font-size: 260%;
+    font-size: 150%;
     text-transform: uppercase;
     font-weight: 700;
 
