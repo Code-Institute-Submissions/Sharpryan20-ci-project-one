@@ -187,13 +187,12 @@
 
 /* About Images */
 
-#about-image-one {
-    object-fit: cover;
-    background: url('../images/naassom-azevedo-AcWC8WuCQ_k-unsplash.jpg');
-
+.about-image {
     height: 250px;
-    width: 300px;
+    width: 100%;
     vertical-align: middle;
+
+    border-radius: 25px 25px 0 0;
 }
 
 /* Footer */
