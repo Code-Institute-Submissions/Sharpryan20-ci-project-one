@@ -262,6 +262,7 @@ body {
     clear: both;
     margin-bottom: 50px;
     margin-top: 50px;
+    position: relative;
 }
 
 .boxes-center {
@@ -272,6 +273,7 @@ body {
     margin: 0 auto;
     margin-bottom: 100px;
     margin-top: 50px;
+    position: relative;
 }
 
 /* Trails Images */ 
@@ -300,8 +302,17 @@ body {
     transition: opacity 0.25s;
 }
 
+.image-overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
 .image-overlay:hover {
     opacity: 1;
+}
+
+.image-overlay:hover > * {
+    transform: translateY(0); 
 }
 
 .image-title {
