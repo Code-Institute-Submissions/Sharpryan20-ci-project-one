@@ -250,6 +250,7 @@ body {
     margin-bottom: 50px;
     margin-top: 50px;
     border: 1px solid #000;
+    position: relative;
 }
 
 .boxes-right {
@@ -278,13 +279,40 @@ body {
 .trails-image {
     height: 300px;
     width: 100%;
-    vertical-align: middle;
 
     object-fit: cover;
+    display: block;
 }
 
-.trails-image:hover {
-    color: Orange;
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    color:#FDF1B5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image-overlay:hover {
+    opacity: 1;
+}
+
+.image-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image-description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+    text-align: center;
 }
 
 /* Footer */
