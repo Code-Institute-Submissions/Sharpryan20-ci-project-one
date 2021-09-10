@@ -190,6 +190,11 @@ body {
     border-radius: 25px 25px 0 0;
 }
 
+.col:hover {
+    transform: scale(1.25);
+    transition: transform 0.25s;
+}
+
 /* About Boxes text */
 
 .col h2 {
