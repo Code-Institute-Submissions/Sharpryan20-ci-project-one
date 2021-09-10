@@ -254,12 +254,10 @@ body {
     clear: both;
     margin-bottom: 50px;
     margin-top: 50px;
-    border: 1px solid #000;
     position: relative;
 }
 
 .boxes-right {
-    border: 1px solid #000;
     width: 60%;
     height: 300px;
     float: left;
@@ -272,7 +270,6 @@ body {
 
 .boxes-center {
     width: 60%;
-    border: 1px solid #000;
     height: 300px;
     line-height: 20px;
     margin: 0 auto;
@@ -289,6 +286,9 @@ body {
 
     object-fit: cover;
     display: block;
+
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .image-overlay {
@@ -305,6 +305,7 @@ body {
     justify-content: center;
     opacity: 0;
     transition: opacity 0.25s;
+    border-radius: 25px;
 }
 
 .image-overlay > * {
