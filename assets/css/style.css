@@ -83,29 +83,14 @@ body {
 
 #t-one {
     position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    color: #fff;
-
-    font-size: 300%;
-
-    text-shadow: 2px 2px #000;
-
-  }
-
-  #t-two {
-    position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     color: #fff;
 
     font-size: 260%;
-    text-transform: uppercase;
-    font-weight: 700;
+    font-family: lobster, sans-serif;
 
     text-shadow: 2px 2px #000;
 
@@ -128,22 +113,15 @@ body {
 
   #button-one {
     position: absolute;
-    top: 70%;
-    left: 30%;
+    top: 65%;
+    left: 40%;
     transform: translate(-50%, -50%);
   }
 
   #button-two {
     position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  #button-three {
-    position: absolute;
-    top: 70%;
-    left: 70%;
+    top: 65%;
+    left: 60%;
     transform: translate(-50%, -50%);
   }
 
