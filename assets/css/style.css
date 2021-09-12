@@ -179,6 +179,7 @@ body {
 .col h2 {
     font-size: 30px;
     margin-top: 10px;
+    font-family: lobster, sans-serif;
 }
 
 .col p {
@@ -387,9 +388,6 @@ body {
 
 .contact-form {
     clear: left;
-    background: url("../images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
     height: 1100px;
 }
 
@@ -402,8 +400,48 @@ body {
     margin-top: 9%;
     margin-left: 5%;
     width: 500px;
+    float: left;
 }
 
+.contact-h2 {
+    float: right;
+    position: relative;
+    margin-top: 65px;
+    margin-right: 23%;
+    font-size: 260%;
+    font-family: lobster, sans-serif;
+    border-bottom: 1px solid #000;
+}
+
+.contact-details > h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-size: 260%;
+}
+
+.contact-details, .contact-opentimes h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 160%;
+}
+
+.contact-details, p {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 130%;
+}
+
+.contact-map {
+    position: absolute;
+    height: 700px;
+    padding: 30px;
+    width: 700px;
+    margin-top: 9%;
+    margin-left: 50%;
+}
 /* Footer */
 
 footer {
@@ -428,11 +466,11 @@ footer hr {
     height: 30px;
 }
 
-.networks {
+.networks, .contact-networks {
     text-align: center;
 }
 
-.networks li {
+.networks, .contact-networks li {
     display: inline;
 }
 
@@ -440,6 +478,14 @@ footer hr {
     font-size: 160%;
     color: #FDF1B5;
     padding: 1%;
+}
+
+.contact-networks i {
+    font-size: 160%;
+    color: #FDF1B5;
+    padding-left: 5%;
+    padding-right: 5%; 
+    padding-top: 1%;
 }
 
 .footer-contact a:hover {
