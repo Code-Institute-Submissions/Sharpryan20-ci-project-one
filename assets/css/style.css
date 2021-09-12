@@ -404,6 +404,28 @@ body {
     color: #FDF1B5;
     border: 1px solid #FDF1B5;
 }
+
+/*Contact Us */
+
+.contact-form {
+    clear: left;
+    background: url("../images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 1100px;
+}
+
+.contact-box {
+    background: #273C2C;
+    position: absolute;
+    height: 700px;
+    color: #FDF1B5;
+    padding: 30px;
+    margin-top: 9%;
+    margin-left: 5%;
+    width: 500px;
+}
+
 /* Footer */
 
 footer {
