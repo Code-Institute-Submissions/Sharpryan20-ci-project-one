@@ -1,6 +1,6 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
 
 * {
@@ -133,7 +133,7 @@ body {
 
 /* About heading */
 
-.about-heading, .trails-heading {
+.about-heading, .trails-heading, .contact-heading {
     text-align: center;
     font-size: 260%;
     margin: 30px 0;
@@ -151,6 +151,10 @@ body {
     font-family: Caveat, sans-serif;
     text-decoration: underline;
     color: #fff;
+}
+
+.contact-heading {
+    margin-top: 50px;
 }
 
 /* About Boxes */
@@ -196,7 +200,7 @@ body {
 
 .col p {
     letter-spacing: 2px;
-    font-family: Ubuntu, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: large;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -318,12 +322,14 @@ body {
     font-weight: bold;
     border-bottom: 2px solid #FDF1B5;
     padding-bottom: 7px;
+    font-family: Caveat, sans-serif;
 }
 
 .image-description {
     font-size: 1.25em;
     margin-top: 0.25em;
     text-align: center;
+    font-family: Roboto, sans-serif;
 }
 
 /* Booking page */
@@ -452,7 +458,7 @@ body {
     float: left;
     width: 50%;
     padding: 10px;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 /* Footer */
 
