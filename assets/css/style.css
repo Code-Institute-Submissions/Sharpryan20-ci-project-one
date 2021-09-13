@@ -1,6 +1,7 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
 
 * {
     margin: 0;
@@ -137,8 +138,19 @@ body {
     font-size: 260%;
     margin: 30px 0;
 
-    font-family: lobster, sans-serif;
+    font-family: Caveat, sans-serif;
     text-decoration: underline;
+}
+
+.book-heading {
+    position: absolute;
+    margin-left: 42%;
+    text-align: center;
+    font-size: 300%;
+    margin-top: 40px;
+    font-family: Caveat, sans-serif;
+    text-decoration: underline;
+    color: #fff;
 }
 
 /* About Boxes */
@@ -466,11 +478,11 @@ footer hr {
     height: 30px;
 }
 
-.networks, .contact-networks {
+.networks {
     text-align: center;
 }
 
-.networks, .contact-networks li {
+.networks li {
     display: inline;
 }
 
@@ -480,12 +492,20 @@ footer hr {
     padding: 1%;
 }
 
+.contact-networks {
+    text-align: center;
+}
+
 .contact-networks i {
     font-size: 160%;
     color: #FDF1B5;
     padding-left: 5%;
     padding-right: 5%; 
     padding-top: 1%;
+}
+
+.contact-networks li {
+    display: inline;
 }
 
 .footer-contact a:hover {
