@@ -16,6 +16,14 @@ body {
     background: rgb(233, 232, 232);
 }
 
+p {
+    font-family: Roboto, sans-serif;
+}
+
+h2 {
+    font-family: Caveat, sans-serif;
+}
+
 /* Headings and Logos */
 
 #logo {
@@ -422,7 +430,6 @@ body {
 .contact-h2 {
     position: relative;
     font-size: 260%;
-    font-family: lobster, sans-serif;
     text-align: center;
     margin-right: 15%;
 }
@@ -518,3 +525,60 @@ footer hr {
     border: 1px solid #FDF1B5;
 }
 
+/* For media screens 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #button-one {
+        left: 30%;
+    }
+
+    #button-two {
+        left: 70%;
+    }
+}
+
+
+/* For media screens 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px  
+     }
+
+     .header {
+        height: 125px;
+    }
+
+    #t-one {
+        font-size: 220%;
+    }
+
+    #button-one {
+        left: 30%;
+    }
+
+    #button-two {
+        left: 70%;
+    }
+}
+
+/* For media screens 800px wide and down */
+
+@media screen and (max-width: 800px) {
+    #t-one {
+        font-size: 160%;
+    }
+
+    #button-one {
+        left: 30%;
+        padding:10%;
+    }
+
+    #button-two {
+        left: 70%;
+    }
+}
