@@ -528,6 +528,7 @@ footer hr {
 /* For media screens 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
+    /*Index Page*/
     #button-one {
         left: 30%;
     }
@@ -561,30 +562,15 @@ footer hr {
         font-size: 220%;
     }
 
-    #button-one {
-        left: 30%;
-    }
-
-    #button-two {
-        left: 70%;
-    }
-
     /*About Page*/
 }
 
 /* For media screens 800px wide and down */
 
 @media screen and (max-width: 800px) {
+    /*Index Page*/
     #t-one {
         font-size: 160%;
     }
-
-    #button-one {
-        left: 30%;
-        padding:10%;
-    }
-
-    #button-two {
-        left: 70%;
-    }
+    /*About Page*/
 }
