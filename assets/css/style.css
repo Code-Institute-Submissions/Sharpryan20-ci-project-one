@@ -474,6 +474,7 @@ footer {
     padding: 2%;
     clear: both;
     position: relative;
+    min-height: calc(10vh - 15px);
 }
 
 .footer-contact {
