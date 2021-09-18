@@ -85,6 +85,8 @@ h2 {
     position: relative;
 
     overflow: hidden;
+
+    background-size: cover;
 }
 
 
@@ -381,7 +383,6 @@ h2 {
     width: 150px;
     height: 35px;
     margin-top: 7%;
-    margin-left: 40%;
     border-radius: 5px;
     padding: 15px, 32px, 15px, 32;
     font-size: 100%;
@@ -615,5 +616,42 @@ footer hr {
     .contact-column {
         margin-left: 0;
         padding-left: 0;
+    }
+}
+
+/* For devices sized 580px and down */
+
+@media screen and (max-width: 580px) {
+    #t-one {
+        font-size: 120%;
+    }
+
+    .button a {
+        font-size: 110%
+    }
+}
+
+/* For small devices sized 480px and down */
+
+@media screen and (max-width: 480px) {
+    #t-one {
+        font-size: 110%;
+    }
+
+    #logo {
+        font-size: 200%
+    }
+    
+    #menu {
+            font-size: 0.6rem
+        }
+    
+    .button a {
+        font-size: 100%
+    }
+
+    /* Book Page */
+    .sign-up {
+        margin-top: 40%;
     }
 }
