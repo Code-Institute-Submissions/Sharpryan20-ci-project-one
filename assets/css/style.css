@@ -152,13 +152,13 @@ h2 {
 
 .book-heading {
     position: absolute;
-    margin-left: 42%;
     text-align: center;
     font-size: 300%;
     margin-top: 40px;
     font-family: Caveat, sans-serif;
     text-decoration: underline;
     color: #fff;
+    width: 100%;
 }
 
 .contact-heading {
@@ -348,6 +348,7 @@ h2 {
         background-size: cover;
         background-position: center;
         height: 900px;
+        width: 100%;
 }
 
 .sign-up {
@@ -545,6 +546,13 @@ footer hr {
         row-gap: 100px;
      }
 
+     /* Book Page */
+
+     
+     .sign-up {
+         margin-top: 20%;
+     }
+
 }
 
 
@@ -569,6 +577,12 @@ footer hr {
     }
 
     /*About Page*/
+
+    /* Book Page */
+
+    .sign-up {
+        margin-top: 30%;
+    }
 }
 
 /* For media screens 800px wide and down */
