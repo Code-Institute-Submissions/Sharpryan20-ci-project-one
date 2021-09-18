@@ -413,6 +413,12 @@ h2 {
 
 /*Contact Us */
 
+.contact-row {
+    display: flex;
+    margin: 20px 40px;
+    padding: 70px;
+}
+
 .contact-form {
     height: 1100px;
 }
@@ -463,8 +469,7 @@ h2 {
 }
 
 .contact-column {
-    float: left;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     margin-top: 5%;
 }
@@ -553,6 +558,17 @@ footer hr {
          margin-top: 20%;
      }
 
+     /* Contact Us Page */
+
+     .contact-row {
+        flex-wrap: wrap;
+        row-gap: 100px;
+     }
+
+     .contact-column {
+         padding: 0;
+     }
+
 }
 
 
@@ -593,4 +609,11 @@ footer hr {
         font-size: 160%;
     }
     /*About Page*/
+
+    /* Contact Us */
+
+    .contact-column {
+        margin-left: 0;
+        padding-left: 0;
+    }
 }
