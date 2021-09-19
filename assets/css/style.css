@@ -629,7 +629,16 @@ footer hr {
     }
 
     .button a {
-        font-size: 110%
+        font-size: 200%
+    }
+
+    #button-one {
+        left: 50%;
+    }
+
+    #button-two {
+        top: 90%;
+        left: 50%
     }
 }
 
@@ -647,13 +656,17 @@ footer hr {
     #menu {
             font-size: 0.6rem
         }
-    
-    .button a {
-        font-size: 100%
-    }
 
     /* Book Page */
     .sign-up {
         margin-top: 40%;
+    }
+}
+
+/* For devices sized 340px and down */
+
+@media screen and (max-width: 340px) {
+    #logo {
+        font-size: 160%;
     }
 }
