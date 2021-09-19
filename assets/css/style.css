@@ -426,12 +426,11 @@ h2 {
 
 .contact-box {
     background: #273C2C;
-    position: absolute;
     height: 700px;
     color: #FDF1B5;
     padding: 30px;
-    
-    width: 500px;
+    margin-left: 5%;
+    width: 40%;
     float: left;
 }
 
@@ -466,13 +465,17 @@ h2 {
 .contact-map {
     position: absolute;
     height: 700px;
-    width: 700px;
+    width: 40%;
 }
 
 .contact-column {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5%;
+    height: 700px;
+    color: #000;
+    padding: 30px;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    width: 500px;
+    float: left;
 }
 /* Footer */
 
@@ -559,16 +562,19 @@ footer hr {
          margin-top: 20%;
      }
 
-     /* Contact Us Page */
+      /* Contact Us Page */
 
-     .contact-row {
-        flex-wrap: wrap;
-        row-gap: 100px;
-     }
+      .contact-box {
+        width: 80%;
+    }
 
-     .contact-column {
-         padding: 0;
-     }
+    .contact-column {
+        width: 80%;
+    }
+
+    .contact-map {
+        width: 80%
+    }
 
 }
 
@@ -613,10 +619,6 @@ footer hr {
 
     /* Contact Us */
 
-    .contact-column {
-        margin-left: 0;
-        padding-left: 0;
-    }
 }
 
 /* For devices sized 580px and down */
