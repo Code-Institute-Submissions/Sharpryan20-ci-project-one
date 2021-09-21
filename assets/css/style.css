@@ -661,6 +661,12 @@ footer hr {
     .sign-up {
         margin-top: 40%;
     }
+
+    /* Contact */
+
+    .contact-box {
+        height: 725px;
+    }
 }
 
 /* For devices sized 340px and down */
