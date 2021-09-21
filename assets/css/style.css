@@ -675,4 +675,17 @@ footer hr {
     #logo {
         font-size: 160%;
     }
+
+    #menu {
+        font-size: 0.5rem;
+    }
+
+    .button a {
+        font-size: 180%;
+    }
+
+    #t-one {
+     font-size: 100%;   
+    }
+    
 }
