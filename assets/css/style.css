@@ -734,27 +734,6 @@ footer hr {
 
 @media screen and (max-width: 340px) {
     #logo {
-        font-size: 150%;
-    }
-
-    #menu {
-        font-size: 0.5rem;
-    }
-
-    .button a {
-        font-size: 180%;
-    }
-
-    #t-one {
-     font-size: 100%;   
-    }
-    
-}
-
-/* For devices sized 340px and down */
-
-@media screen and (max-width: 340px) {
-    #logo {
         font-size: 140%;
     }
 
@@ -796,3 +775,11 @@ footer hr {
         top:110%
     }
 }
+
+/* For screen devices 280px and down */
+
+@media screen and (max-width: 280px) {
+    .about-image {
+        display: none;
+    } 
+ } 
