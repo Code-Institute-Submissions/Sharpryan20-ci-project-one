@@ -748,6 +748,14 @@ footer hr {
     #t-one {
      font-size: 100%;   
     }
+
+    /* Booking Page */
+
+    .sign-up {
+        margin-top: 60%;
+        width: 70%
+        margin-left: none;
+    }
     
 }
 
@@ -781,5 +789,30 @@ footer hr {
 @media screen and (max-width: 280px) {
     .about-image {
         display: none;
-    } 
+    }
+    
+    /* Booking Page */
+
+    .sign-up {
+        width: 50%;
+    }
+
+    /*Contact Us*/
+
+    .contact-box {
+        width: 50%;
+        margin-left: 15%; 
+    }
+
+    .contact-box h2, .contact-details h2 {
+        font-size: 230%
+    }
+
+    .contact-details, .contact-opentimes h3 {
+        font-size: 110%
+    }
+
+    .contact-details p {
+        font-size: 80%
+    }
  } 
