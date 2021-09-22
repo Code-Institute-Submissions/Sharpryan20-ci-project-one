@@ -66,6 +66,10 @@ h2 {
     border: 1px solid #FDF1B5;
 }
 
+nav select {
+    display: none;
+}
+
 
 /* Hero Image */
 
@@ -639,6 +643,14 @@ footer hr {
     #button-two {
         top: 90%;
         left: 50%
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav select {
+        display: inline-block;
     }
 }
 
