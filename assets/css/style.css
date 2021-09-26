@@ -631,6 +631,15 @@ footer hr {
 
 }
 
+@media screen and (min-width: 640px) and (max-width: 1025px) and (orientation: portrait) {
+    #hero-outer {
+        height: 85vh;
+    }
+
+    #hero-tree {
+        height: 100%;
+    }
+}
 
 /* For media screens 950px wide and down */
 
