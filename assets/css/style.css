@@ -223,9 +223,8 @@ button i {
 /* About Boxes */
 
 .row {
-    display: flex;
     margin: 20px 40px;
-    padding: 70px;
+    padding-bottom: 70px;
 }
 
 .col {
@@ -233,7 +232,7 @@ button i {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    
+    margin-top: 15%;
 
     border-radius: 25px;
     background: #fff;
