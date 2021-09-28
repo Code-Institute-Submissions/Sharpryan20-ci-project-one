@@ -46,7 +46,8 @@ h2 {
     letter-spacing: 2px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
     color: #FDF1B5;
 }
@@ -110,7 +111,7 @@ button i {
     padding: 12px 16px;
     text-decoration: underline;
     display: block;
-  }
+}
 
 .dropdown-content a:hover {
     background-color: #273C2C;
@@ -118,7 +119,7 @@ button i {
 
 .dropdown:hover .dropdown-content {
     display: block;
-  }
+}
 
 /* Hero Image */
 
@@ -158,36 +159,36 @@ button i {
 
     text-shadow: 2px 2px #000;
 
-  }
+}
 
-  /* Main Buttons */
+/* Main Buttons */
 
-  .button a {
-      text-decoration: none;
+.button a {
+    text-decoration: none;
 
-      font-size: 180%;
-      font-weight: 800;
+    font-size: 180%;
+    font-weight: 800;
 
-      color: #FDF1B5;
-      background-color: #273C2C;
-      padding: .375rem .75rem;
-      border-radius: 12px;
-      box-shadow: 2px 2px #000; 
-  }
+    color: #FDF1B5;
+    background-color: #273C2C;
+    padding: .375rem .75rem;
+    border-radius: 12px;
+    box-shadow: 2px 2px #000;
+}
 
-  #button-one {
+#button-one {
     position: absolute;
     top: 65%;
     left: 40%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  #button-two {
+#button-two {
     position: absolute;
     top: 65%;
     left: 60%;
     transform: translate(-50%, -50%);
-  }
+}
 
 .button a:hover {
     background-color: #FDF1B5;
@@ -196,7 +197,9 @@ button i {
 
 /* About heading */
 
-.about-heading, .trails-heading, .contact-heading {
+.about-heading,
+.trails-heading,
+.contact-heading {
     text-align: center;
     font-size: 260%;
     margin: 30px 0;
@@ -337,7 +340,7 @@ button i {
     position: relative;
 }
 
-/* Trails Images */ 
+/* Trails Images */
 
 .trails-image {
     height: 300px;
@@ -357,7 +360,7 @@ button i {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, .6);
-    color:#FDF1B5;
+    color: #FDF1B5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -367,7 +370,7 @@ button i {
     border-radius: 25px;
 }
 
-.image-overlay > * {
+.image-overlay>* {
     transform: translateY(20px);
     transition: transform 0.25s;
 }
@@ -376,8 +379,8 @@ button i {
     opacity: 1;
 }
 
-.image-overlay:hover > * {
-    transform: translateY(0); 
+.image-overlay:hover>* {
+    transform: translateY(0);
 }
 
 .image-title {
@@ -398,12 +401,12 @@ button i {
 /* Booking page */
 
 .book-form {
-        clear: left;
-        background: url("../images/hero-image.jpg");
-        background-size: cover;
-        background-position: center;
-        height: 900px;
-        width: 100%;
+    clear: left;
+    background: url("../images/hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: 100%;
 }
 
 .sign-up {
@@ -418,7 +421,7 @@ button i {
     padding: 30px;
 }
 
-.sign-up > h2 {
+.sign-up>h2 {
     margin-bottom: 25px;
     text-align: center;
     margin-bottom: 20px;
@@ -437,7 +440,7 @@ button i {
     height: 35px;
     margin-top: 7%;
     border-radius: 5px;
-    padding: 15px, 32px, 15px, 32;
+    padding: 15px 32px 15px 32px;
     font-size: 100%;
     background-color: #FDF1B5;
     color: #273C2C;
@@ -445,7 +448,7 @@ button i {
 
 .book-submit:hover {
     background-color: #273C2C;
-    color:#FDF1B5;
+    color: #FDF1B5;
     border: 1px solid #FDF1B5;
 }
 
@@ -494,21 +497,23 @@ button i {
     margin-right: 15%;
 }
 
-.contact-details > h2 {
+.contact-details>h2 {
     text-align: center;
     padding-bottom: 50px;
     padding-top: 20px;
     font-size: 260%;
 }
 
-.contact-details, .contact-opentimes h3 {
+.contact-details,
+.contact-opentimes h3 {
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
     font-size: 160%;
 }
 
-.contact-details, p {
+.contact-details,
+p {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -530,6 +535,7 @@ button i {
     width: 500px;
     float: left;
 }
+
 /* Footer */
 
 footer {
@@ -577,7 +583,7 @@ footer hr {
     font-size: 160%;
     color: #FDF1B5;
     padding-left: 5%;
-    padding-right: 5%; 
+    padding-right: 5%;
     padding-top: 1%;
 }
 
@@ -592,6 +598,7 @@ footer hr {
 /* For media screens 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
+
     /*Index Page*/
     #button-one {
         left: 30%;
@@ -601,23 +608,23 @@ footer hr {
         left: 70%;
     }
 
-     /*About Page*/
+    /*About Page*/
 
-     .row {
+    .row {
         flex-wrap: wrap;
         row-gap: 100px;
-     }
+    }
 
-     /* Book Page */
+    /* Book Page */
 
-     
-     .sign-up {
-         margin-top: 20%;
-     }
 
-      /* Contact Us Page */
+    .sign-up {
+        margin-top: 20%;
+    }
 
-      .contact-box {
+    /* Contact Us Page */
+
+    .contact-box {
         width: 80%;
     }
 
@@ -644,16 +651,17 @@ footer hr {
 /* For media screens 950px wide and down */
 
 @media screen and (max-width: 950px) {
+
     /*Index Page*/
     #menu {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
-        line-height: 25px  
-     }
+        line-height: 25px
+    }
 
-     .header {
+    .header {
         height: 125px;
     }
 
@@ -673,10 +681,12 @@ footer hr {
 /* For media screens 800px wide and down */
 
 @media screen and (max-width: 800px) {
+
     /*Index Page*/
     #t-one {
         font-size: 160%;
     }
+
     /*About Page*/
 
     /* Contact Us */
@@ -722,15 +732,10 @@ footer hr {
     #logo {
         font-size: 210%;
     }
-    
+
     #menu {
-            font-size: 0.6rem
-        }
+        font-size: 0.6rem
 
-    /* About Page */
-
-    .col {
-        width: none;
     }
 
     /* Book Page */
@@ -761,7 +766,7 @@ footer hr {
     }
 
     #t-one {
-     font-size: 180%;   
+        font-size: 180%;
     }
 
     /* Booking Page */
@@ -771,7 +776,7 @@ footer hr {
         width: 60%;
         margin-left: 10%;
     }
-    
+
 }
 
 /* For screens sized 300px and down */
@@ -783,7 +788,7 @@ footer hr {
 
     #t-one {
         font-size: 200%;
-        margin-top: 50px; 
+        margin-top: 50px;
     }
 
     .button a {
@@ -795,7 +800,7 @@ footer hr {
     }
 
     #button-two {
-        top:110%
+        top: 110%
     }
 }
 
@@ -805,7 +810,7 @@ footer hr {
     .about-image {
         display: none;
     }
-    
+
     /* Booking Page */
 
     .sign-up {
@@ -816,18 +821,20 @@ footer hr {
 
     .contact-box {
         width: 50%;
-        margin-left: 15%; 
+        margin-left: 15%;
     }
 
-    .contact-box h2, .contact-details h2 {
+    .contact-box h2,
+    .contact-details h2 {
         font-size: 230%
     }
 
-    .contact-details, .contact-opentimes h3 {
+    .contact-details,
+    .contact-opentimes h3 {
         font-size: 110%
     }
 
     .contact-details p {
         font-size: 80%
     }
- } 
+}
