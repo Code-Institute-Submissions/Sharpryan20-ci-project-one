@@ -225,6 +225,7 @@ button i {
 .row {
     margin: 20px 40px;
     padding-bottom: 70px;
+    display: flex;
 }
 
 .col {
@@ -232,7 +233,7 @@ button i {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15%;
+    margin-top: 7%;
 
     border-radius: 25px;
     background: #fff;
@@ -725,6 +726,12 @@ footer hr {
     #menu {
             font-size: 0.6rem
         }
+
+    /* About Page */
+
+    .col {
+        width: none;
+    }
 
     /* Book Page */
     .sign-up {
