@@ -82,7 +82,7 @@ When designing my trails page, my original plan was to have images floating left
 
 ### Phone And tablet Devices 
 
-![phone-Page](assets/images/readme-images/phone.png) ![tablet-Page](assets/images/readme-images/tablet.png)
+![phone](assets/images/readme-images/phone.png) ![tablet](assets/images/readme-images/tablet.png)
 
 # Features
 
@@ -123,4 +123,30 @@ Below is everything that I used throughout development which helped with buildin
 -  [Balsamiq:](https://balsamiq.com/) - Balsamiq was used tp create wireframes during the designing process.
 
 -  [Coolors](https://coolors.co/) - Coolors was used to help design my colour palette for the website. 
+
+# Testing 
+
+Testing was carried out both manually and automatically. 
+
+For Manual testing I constantly had a preview of the website and specifically the page I was working on which I would check on regularly and hard reset the browser so any changes to my code would appear. If I found there was an error with my code, especially when first working with media queries, I would use the dev tools to change, alter and add code and make sure it worked smoothly before then adding it to gitpod. I also tested responsiveness both through console tools, alongside using different browsers on different type of devices.My different browser is Google Chrome and this is where I did majority of my tests, but I was able to use safari, microsoft edge and firefox and test my website on them as well. 
+
+I also regularly generated lighthouse reports which would help give me an indication on how well my page was preforming. There was a case in one of the reports where the performance was low due to the size of the images that I used. From that report I compressed my images down so they didn't create such a delay when loading up certain pages. I have an example here of a lighthouse report that was carried out on my contact.html page.
+
+![reports](assets/images/readme-images/reports.png)
+
+Automatic testing of my HTML and CSS structure were done in ![W3C Validator](https://validator.w3.org/) to ensure there were no errors in my code and that it was formatted properly. (All of my pages and CSS was run through the validator and none of them show any errors)
+
+Additionally to the above, I had given my Github pages link to various people in order to rigorously test the website, both on mobile and desktop.
+
+## Bugs 
+
+During the testing of the build I discorvered that content wasn't appearing how it was supposed to. I will list a few of the bugs below.
+
+Bug: I had coded it so on mobile screen sizes, the nav bar turned into a dropdown menu, however for some reason it wasn't being implemented when testing the website. 
+
+Solution: There was a problem in my code where one of my 'meta' was named viewport instead of description. As a result of that, it overrided the other viewport meta and caused my website to not work. 
+
+Bug: My hero image for the index page wouldn't stretch to screen for mobile devices.
+
+Solution: I altered my code and changed the height of the image from pixels to 'vh'. 
 
