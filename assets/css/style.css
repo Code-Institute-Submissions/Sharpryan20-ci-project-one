@@ -67,6 +67,10 @@ h2 {
     border: 1px solid #FDF1B5;
 }
 
+.active {
+    border-bottom: 1px solid #FDF1B5;
+}
+
 nav button {
     display: none;
 }
