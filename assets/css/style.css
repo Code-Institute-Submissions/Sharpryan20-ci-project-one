@@ -619,7 +619,7 @@ footer hr {
 
 
     .sign-up {
-        margin-top: 20%;
+        margin-top: 15%;
     }
 
     /* Contact Us Page */
@@ -674,7 +674,7 @@ footer hr {
     /* Book Page */
 
     .sign-up {
-        margin-top: 30%;
+        margin-top: 15%;
     }
 }
 
@@ -740,7 +740,11 @@ footer hr {
 
     /* Book Page */
     .sign-up {
-        margin-top: 40%;
+        margin-top: 15%;
+    }
+
+    .book-heading {
+        display: none;
     }
 
     /* Contact */
@@ -772,7 +776,7 @@ footer hr {
     /* Booking Page */
 
     .sign-up {
-        margin-top: 60%;
+        margin-top: 20%;
         width: 60%;
         margin-left: 10%;
     }
