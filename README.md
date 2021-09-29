@@ -90,11 +90,19 @@ When designing my trails page, my original plan was to have images floating left
 
 - Every page is responsive on all devices.
 
+- The footer contains 4 social media icons which are completely interactive and will take people to our social accounts where they can further contact us and look out for latest news.
+
+![Footer Socials](assets/images/readme-images/footer-socials.png)
+
 - Home page - This page contains buttons which will guide the audience to other places in the site.
+
+![Home Buttons](assets/images/readme-images/home-buttons.png)
 
 - About page - This page provides the audience with information about me and the idea for the company.
 
 - Trails page - A page which consists of a 3 x 3 grid which allows users to select and read up on their desired choosing.
+
+![Trail Boxes](assets/images/readme-images/trail-boxes.png)
 
 - Book page - this page allows users to fill out a form which will help them book their favourite trails. (However, due to no back-end functionality, the information won't get fed anywhere)
 
@@ -135,6 +143,14 @@ I also regularly generated lighthouse reports which would help give me an indica
 ![reports](assets/images/readme-images/reports.png)
 
 Automatic testing of my HTML and CSS structure were done in [W3C Validator](https://validator.w3.org/) to ensure there were no errors in my code and that it was formatted properly. (All of my pages and CSS was run through the validator and none of them show any errors)
+
+HTML validator for index.html 
+
+![Index HTML Validator](assets/images/readme-images/html-validator.png)
+
+CSS Validator 
+
+![CSS Validator](assets/images/readme-images/css-validator.png)
 
 Additionally to the above, I had given my Github pages link to various people in order to rigorously test the website, both on mobile and desktop.
 
