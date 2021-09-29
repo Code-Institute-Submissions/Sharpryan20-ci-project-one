@@ -134,7 +134,7 @@ I also regularly generated lighthouse reports which would help give me an indica
 
 ![reports](assets/images/readme-images/reports.png)
 
-Automatic testing of my HTML and CSS structure were done in ![W3C Validator](https://validator.w3.org/) to ensure there were no errors in my code and that it was formatted properly. (All of my pages and CSS was run through the validator and none of them show any errors)
+Automatic testing of my HTML and CSS structure were done in [W3C Validator](https://validator.w3.org/) to ensure there were no errors in my code and that it was formatted properly. (All of my pages and CSS was run through the validator and none of them show any errors)
 
 Additionally to the above, I had given my Github pages link to various people in order to rigorously test the website, both on mobile and desktop.
 
@@ -167,4 +167,19 @@ I deployed this site through GitHub pages. This was a simple process, as follows
 -   Select the source (I chose master branch in this instance)
     
 -   After some time, the site will be deployed and ready to see.
+
+# Credits 
+
+- Thanks to Reuben Ferrante, my code institute mentor, for his guidance and insight and the constant confidence boost to help me in the right direction.
+
+- The Slack community. The amount of help and support and encouragement I recieved really helped throughout the project. 
+
+- [W3Schools](https://www.w3schools.com/) for their exceptional explanations and useful examples.
+
+- [Coolors](https://coolors.co/) - Used to create my colour palette.
+
+- [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAjwmK6IBhBqEiwAocMc8kqMZ3mHidwwW9mw_i47kVP3U3IuOxH9ow_-GrzlTcK-fFXxmx_TkRoCL8EQAvD_BwE) - Used to build wireframes for my website.
+
+- [W3C Validator](https://validator.w3.org/) - A validator used to check my HTML and CSS structure and format periodically throughout the build. 
+
 
