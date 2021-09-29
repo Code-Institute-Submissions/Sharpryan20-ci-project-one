@@ -88,3 +88,18 @@ When designing my trails page, my original plan was to have images floating left
 
 ## Current Features
 
+- Every page is responsive on all devices.
+
+- Home page - This page contains buttons which will guide the audience to other places in the site.
+
+- About page - This page provides the audience with information about me and the idea for the company.
+
+- Trails page - A page which consists of a 3 x 3 grid which allows users to select and read up on their desired choosing.
+
+- Book page - this page allows users to fill out a form which will help them book their favourite trails. (However, due to no back-end functionality, the information won't get fed anywhere)
+
+- Contact page - A page which gives the users plenty of information on how to contact and find us if they need assistance with anything. 
+
+## Future Features 
+
+- Store - A store or even a basket section would be beneficial to the website because it will make booking trails for the user even easier.
