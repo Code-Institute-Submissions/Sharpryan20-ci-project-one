@@ -28,3 +28,38 @@ From the beginning in the early development stage with planning the wireframes o
 - I want my email address saved so filling in the form will be quicker in future.
 - I want the experience to remain consistent and continue to find information about new and upcoming trails that the business is offering.
 - I perhaps want to contact the site owner to make a suggestion.
+
+# Design:
+
+## Typography
+
+- I used different styles of font for different elements in my site. My main logo font is lobster and it helps make it stand out from any other text on the site.
+
+![Logo](assets/images/readme-images/logo.png)
+
+- My Headings for all of my pages use a font called 'Caveat'. I chose this font because it is easy to read and it makes it clear that the headings are the introduction to every page.
+
+![headings](assets/images/readme-images/headings.png)
+
+- Any other text that was used throughout the site has a font of 'roboto' and I chose this font because it looks very modern and again is easy to read. 
+
+![paragraphs](assets/images/readme-images/paragraphs.png)
+
+## Colour Scheme 
+
+![design](assets/images/readme-images/palette.png)
+
+- The site's primary colours are green, cream, black and white. The above image shows the original colour section for the site, the primary colour was the green. All colours were picked and matched from [coolors.co](https://coolors.co/).
+
+- The reason for my colour palette was to try and resemble nature as much as possible and the dark green really worked well with the type of images that I used. I then decided on a cream colour for the logo text and nav bar because it really contrasted with the green and made it easier to read for someone who may have difficult with seeing colours.
+
+## Layout:
+
+- As mentioned earlier, the site is deliberately minimal with what is showcased to provide easy access and to stop over clutter. I chose to use images to bring colour and to help break up the text on some of the pages. 
+
+- Information about the business and the owners are presented as cards which enlarge when hovered over. The cards go from being side by side to being on top of eachother depending on the size of the user's device.
+
+- Information about the trails that the website showcases work similar to the information cards about the company. However the audience will need to first hover over their preffered trail and only then will it bring up inofrmation about the type of trail they are interested in.
+
+- In the future I would like to be able to have the cards about the trails to size in column size depending on the user's screen size. 
+
