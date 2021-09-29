@@ -150,3 +150,21 @@ Bug: My hero image for the index page wouldn't stretch to screen for mobile devi
 
 Solution: I altered my code and changed the height of the image from pixels to 'vh'. 
 
+# Deployment
+
+## GitHub Pages 
+
+I deployed this site through GitHub pages. This was a simple process, as follows:
+
+-   Log into GitHub
+    
+-   Go to the repository
+
+-   Go to settings
+    
+-   Scroll down to "GitHub Pages" section
+    
+-   Select the source (I chose master branch in this instance)
+    
+-   After some time, the site will be deployed and ready to see.
+
