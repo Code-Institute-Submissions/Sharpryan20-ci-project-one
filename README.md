@@ -63,3 +63,28 @@ From the beginning in the early development stage with planning the wireframes o
 
 - In the future I would like to be able to have the cards about the trails to size in column size depending on the user's screen size. 
 
+# Wireframes 
+
+Below will be attached of all my wireframes. These were very basic mockups of how I intended my website to look from the beginning.
+
+### Index.html 
+
+![Index-Page](assets/images/readme-images/index.png)
+
+My original plan as can be seen above was to have separate boxes on the home page which provided information and small catch phrases to draw in the target audience. However, throughout development I settled down on the idea that the home was more of a welcome page to the target audience. The only service it would have would be to help navigate people throughout the rest of the site.
+
+### Trails.html 
+
+![Trails-Page](assets/images/readme-images/trails.png)
+
+When designing my trails page, my original plan was to have images floating left and right going all the way down the page, which a box either to the left or right of them depending on where the image was explaining about each of the trails. However, during development, I decided to have just the images first and then the information would be displayed when the user hovers over them.
+
+
+### Phone And tablet Devices 
+
+![phone-Page](assets/images/readme-images/phone.png) ![tablet-Page](assets/images/readme-images/tablet.png)
+
+# Features
+
+## Current Features
+
