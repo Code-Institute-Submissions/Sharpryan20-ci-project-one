@@ -103,3 +103,24 @@ When designing my trails page, my original plan was to have images floating left
 ## Future Features 
 
 - Store - A store or even a basket section would be beneficial to the website because it will make booking trails for the user even easier.
+
+# Technologies Used 
+
+Below is everything that I used throughout development which helped with building the website.
+
+- [HTML:](https://www.w3.org/html/)  - HTMl5 provided the content and the structure of my website. I used a few semantic elements where possible.
+
+- [CSS:](https://www.w3.org/Style/CSS/) - CSS was used to style all my pages.
+
+- [Google Fonts:](https://fonts.google.com/) - Google fonts was used to import all font types for the different elements.
+
+- [Font Awesome:](https://fontawesome.com/) - Font awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
+- [Git](https://git-scm.com/) - Git was used for version control. Allowing me to create backups whenever significant changes were made to code by utilizing the gitpod terminal to commit to Git and Push to GitHub.
+
+-  [GitHub:](https://github.com/) - GitHub was used to externally hold my repository. Will also use GitHub pages to deploy my website.
+
+-  [Balsamiq:](https://balsamiq.com/) - Balsamiq was used tp create wireframes during the designing process.
+
+-  [Coolors](https://coolors.co/) - Coolors was used to help design my colour palette for the website. 
+
