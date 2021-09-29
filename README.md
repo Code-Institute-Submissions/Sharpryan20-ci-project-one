@@ -3,7 +3,7 @@
 
 [GitHub Repository](https://github.com/Sharpryan20/ci-project-one#readme)
 
-![responsive](../ci-project-one/assets/images/readme-images/responsive.png)
+![responsive](assets/images/readme-images/responsive.png)
 
 # Overview 
 
